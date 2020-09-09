@@ -9,7 +9,7 @@
 
 
 
-#define MOVIE_PATH			".\\MOVIE\\Fireworks.mp4"	
+#define MOVIE_PATH			".\\MOVIE\\Sea - 33194.mp4"	
 
 int handle = -1;	
 
