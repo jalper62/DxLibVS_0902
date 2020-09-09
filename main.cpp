@@ -23,7 +23,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	SetMainWindowText(TEXT(GAME_WINDOW_NAME));			
 	SetAlwaysRunFlag(TRUE);								
 
-	if (DxLib_Init() == -1) { return -1; }	//ï¼¤ï¼¸ãƒ©ã‚¤ãƒ–ãƒ©ãƒªåˆæœŸåŒ–å‡¦ç†
+	if (DxLib_Init() == -1) { return -1; }	//‚c‚wƒ‰ƒCƒuƒ‰ƒŠ‰Šú‰»ˆ—
 
 
 	handle = LoadGraph(MOVIE_PATH);
@@ -45,8 +45,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 
 
-		DrawString(0, 0, "å‹•ç”»ã‚’å†ç”Ÿã—ã¦ã„ã¾ã™ãƒ»ãƒ»ãƒ»", GetColor(255, 255, 255));
-		DrawString(0, 0, "æµ·ã®å‹•ç”»", GetColor(255, 255, 255));
+		DrawString(0, 0, "“®‰æ‚ğÄ¶‚µ‚Ä‚¢‚Ü‚·EEE", GetColor(255, 255, 255));
+		DrawString(0, 20, "ŠC‚Ì“®‰æ", GetColor(255, 255, 255));
 
 
 		ScreenFlip();		
