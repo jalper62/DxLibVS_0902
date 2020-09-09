@@ -46,7 +46,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 
 		DrawString(0, 0, "動画を再生しています・・・", GetColor(255, 255, 255));
-		DrawString(0, 0, "海の動画
+		DrawString(0, 0, "海の動画", GetColor(255, 255, 255));
+
 
 		ScreenFlip();		
 	}
